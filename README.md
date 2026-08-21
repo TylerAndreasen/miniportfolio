@@ -44,6 +44,8 @@ TODO expand this list of bullet points
 
 ## 4. Snake AI: A Lesson in Context
 
+Code [link](https://github.com/TylerAndreasen/NN)
+
 - Skyrim is cool, what if I could write scripts that learned how beat Skyrim using just it's own engine?
 - That is really complicated, how do I scale back the project to learn about the fundementals?
 - Write an AI for Snake! After you build snake. Also graphics in C++ are fun (these actually weren't bad with raylib)
