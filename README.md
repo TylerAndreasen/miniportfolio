@@ -42,6 +42,17 @@ TODO expand this list of bullet points
 - I need to sleep
 - TODO look up review notes on the project and why I didn't submit anything
 
+A summer or two after my building of Lascii, I came across a Game Jam ([jam](https://itch.io/jam/gmtk-2023), [review](https://www.youtube.com/watch?v=tYxZ_LOlFnU&pp=ygUTZ210ayByb2xlcyByZXZlcnNlZA%3D%3D)) with a theme that struck me: Roles Reversed. And I pretty quickly figured out how I could utilize the Lascii architecture to build an appropriate game. Titled *The Minion*, the game (in theory) placed the player in the non-descript shoes of a gremlin-ish minion of an unnamed magician and tasked them with hiding five objects around an abode belonging to the master. Reversing the typical text-adventure game trope of finding hidden objects throughout locations to solve puzzles, the player had to hide ?5? objects within the ?7? available locations, but only some combinations were allowed. For example, an ancient feather and an important document could not be safely placed on the dusty crossbars in the chimney*, but a wooden staff could easily be cleaned later. Conversely, the staff (called a stave in the files, even though stave is the plural) could not fit into the desk while the important document would fit neatly in a drawer.
+I learned a few things from the jam and from the attempt to create The Minion.
+1. Translating existing code is much faster than writing it from scratch.
+2. The poor design of Lascii was still not a great framework for building the sort of game I wanted to make.
+3. I needed to take better care of myself during the jam (primarily sleeping and drinking water).
+4. I needed to start with a clear plan of what I was going to be doing before I did anything. I did contemplate the very high level of the game before I started writing code, but I did not create an action-oriented plan. I have since learned about Kanban-style task boards and have more experience developing larger projects.
+5. I need to have and or build tools within my editor to make development easier. This is likely even more relevant when developing games with 2D and 3D graphics.
+6. The very short duration, just a 48 hour window, combined with my unfamiliarity with Unity was not a good combination. More practice and more careful Jam entry selection will be required in the future.
+
+*In retrospect, I am not certain the chimney typically have the sorts of crossbars I imagined.
+
 ## 4. Snake AI: A Lesson in Context
 
 Code [link](https://github.com/TylerAndreasen/NN)
