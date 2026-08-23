@@ -1,0 +1,4 @@
+p013:(Welcome to Minion, a reverse exploration game.)(You have five objects you must hide in your masters lair.)(Explore the space to discover all of the places they can go.)
+
+
+013:();(p000);[(exists,0,=,false)]

@@ -48,15 +48,21 @@ I learned a few things from the jam and from the attempt to create The Minion.
 
 ## 4. Snake AI: A Lesson in Context
 
-Code [link](https://github.com/TylerAndreasen/NN)
+In my time on the internet, I have seen a variety of learning agents be built and directed to beat a variety of games: everything from the original Super Mario Bros and Donkey Kong, to recent titles including [Dota 2](https://openai.com/index/dota-2/). Known for its modding scene and broad appeal, and having personal history with the game, I had the idea somewhere down the line to build a learning agent that could beat The Elder Scrolls V: Skyrim. From the moment I first considered it, I knew it was hilariously beyond my abilities at the time, but it was still a goal I wanted to work towards. And the first step would be trying to teach an agent to beat a much simpler game. After I had completed a version of the classic Snake using C++ and [Raylib](https://github.com/raysan5/raylib), I realized that a Neural Network based agent could probably learn to play the game. Even after the lesson of Lascii with Object Serialization, I made a poor decision: I wanted to build the [neural network library](https://github.com/TylerAndreasen/NN) from scratch.<br>
+To make a long story short, the development of the library was actually pretty smooth as I was following a [tutorial](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6aCibgK1PTWWu9by6XFdCfh)**, but getting a network to learn anything bested me. After the code was written and the tests were passed, I tried to teach a network the simplest inputs: Exclusive Or (XOR). For those unfamiliar, in formal logic, the exclusive or is an operator that operates on two true or false statements (in the same way `+` operates on two numbers). The simple or only evalates to false if both of its operates are false, in all other cases, it evaluates to true. By contrast, Exclusive Or evaluates to true if exactly one of its inputs are true. This is equivalent to saying that Exclusive Or evaluates to true if the inputs are different from each other, and evaluates to false if its inputs are the same. See below for a diagram.
 
-- Skyrim is cool, what if I could write scripts that learned how beat Skyrim using just it's own engine?
-- That is really complicated, how do I scale back the project to learn about the fundementals?
-- Write an AI for Snake! After you build snake. Also graphics in C++ are fun (these actually weren't bad with raylib)
-- This didn't take a huge amount of time to write, but doesn't actually learn what I am trying to teach it and I am still not certain why.
-- Link Coding Train tutorial and mention attempted meta-training script
-- This is something I want to come back to in the near future.
+| | OR | True | False | XOR | True | False|
+|---|---|---|---|---|---|---|
+| True || True | True | | False | True |
+| False || True | False | | True | False |
 
+I tried a variety of configurations for key variables within the training, but I was only able to get the network to output the intended outputs once, and since I didn't write down that configuration, I have yet to replicate it. Though to this day I am not sure why I changed anything after actually getting it to learn something. Beyond the number of variables that I had to tweak to try to get the network to learn, the project was hard to debug due to the time that the algorithm took to train. At the longest I attempted, running `1e7` or `10,000,000` trainings took between 20 and 30 seconds each, and the vast majority of these resulted in the final guess for all inputs to return negative infinity, telling me something was going wrong in the math that I could not locate. Truth be told, there were a number of things I didn't do during this project that I should have.
+1. I would have benfitted immensely from running more tests against more edge cases than I did. In theory, I would have found the tending to negative infinity early in the process and been able to track it down.
+2. Being more deliberate with my planning from the beginning would have helped keep the design clean. I originally planned to have a Layer class which acted as a manager for individual nodes, but I realized it did not accomplish much when I was aiming to build a network for XOR.
+3. I really should have done more research into how neural networks get trained on inputs, though the tutorial series did not have any issue getting the right outputs. More time learning how to set up the training conditions, or just using a prebuilt neural network library would have likely taken less time and caused fewer issues.
+
+*C++ would make the decision making faster than other attempts I had seen, allowing the entire board to be useable as inputs.<br>
+**Dan Schiffman of the Coding Train was a huge inspiration and idea source for me in my early days of learning (psudo-)Java.
 
 ## 5. Budget Tracking: An Exercise in Not Revealing My Financial Details
 
