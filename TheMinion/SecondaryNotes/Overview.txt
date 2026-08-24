@@ -1,0 +1,14 @@
+The 2023 GMTK game jam theme is "Roles Reversed".
+
+Recognizing that the engine is not even finished yet, I have a plan I think could be interesting and may even make for the premise of a good eventual release in the future.
+The project is called The Minion.
+You have been tasked by your master with re-hiding 5 objects in a small abode. There are more hiding places than there are objects, so you have a number of ways to hide away the illicit, questionable, or simply strange implements of your master's work. Not all hiding spots will be capable of hiding every object so make your decisions carefully, though you can rehide objects if you find a new spot.
+
+Note: keep the map simple, two, three rooms at most.
+This occurs centuries after TWUC/DitPI
+
+Description
+
+This is a reverse text-adventure game, where you have to hide several items in location that will hide them from prying eyes. You play as a minion of a powerful mage, and he has changed you with hiding five items, a large chest, an important document, an ancient bird feather, a wooden stave, and a small stone statuette. There are more places to put these objects than there are objects, How many combinations can you find?
+
+This is my first game I have ever released, built in Unity with a custom text-adventure engine. If you run into trouble with the game, please let me know (not totally sure how on Itch.io) and I'll do what I can to help out. Any and all feedback is appreciated.

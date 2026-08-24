@@ -1,0 +1,25 @@
+Objects:
+	Chest 	: A, G
+	Document: A, C, D, E
+	Feather	:A, B, F
+  	Saccade	: A, D, E 
+	Stave 	: B, F, G
+	
+
+Places:
+	Painting Cubby	A
+	Coat Hook	B
+	Fur Rug		C
+	Pillow Case	D
+	Stationary 	E
+	Mantle Display	F
+	Chimney CrossbarG
+
+Every object should have at least 2 places to fit and each location should be able to hold at least two different object (though not simultaneously)
+
+\/ Item, > Location
+1,0,0,0,0,0,1
+1,0,1,1,1,1,0
+1,1,0,0,0,0,0
+1,0,0,1,1,0,0
+0,1,0,0,0,1,1

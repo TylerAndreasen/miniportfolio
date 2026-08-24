@@ -1,0 +1,31 @@
+LasciiGameObjects
+	Action - Done
+	Directory - Create methods to output data to the screen
+	DirectoryPrecursor - Done
+	Effect - Done
+	Page - Create methods to output data to the screen
+	Trait - Done
+	TraitRequirement - Done
+LasciiMain
+	Main - 
+	LasciiFileParser - Done
+	LasciiMeta - Not currently necessarry. Will be used to store metadata about the game (user settings and what not)
+	PlayerTraits - Done
+LasciiUtilities
+	LasciiBasicTypeUtilities - Done
+	LasciiConsoleOut - Will be superceded[sic]
+	LasciiObjectUtilities - Done
+LasciiResources
+	Task: Rename files - Done
+
+
+Ordered Next Steps (to minimize annoying errors)
+
+Determine why there are no available action in the java version, then port the fix to c#
+
+Other Tasks - 
+Create Language Agnostic Documentation
+Update Debug.Log() statements at the beginning of method calls to include meaningful information of what they were passed as arguments.
+Make Debug.Log statments consistent. Ensure to include a #DEBUG#/#ERROR#/ other header, the class.method(arguments) information, and what the debug is reporting.
+Ensure use of class debug toggles
+Add asset name/description to calls to the file parser

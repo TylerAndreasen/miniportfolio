@@ -1,0 +1,10 @@
+What did I learn from my first Game Jam?
+
+I need tools that remove the barriers for both writing code and making game data easier.
+	For Lascii Engine games, I need a GUI Editor for Page and Directory files, it was massively tedious to write everything to file by hand, and then do it all again after I overwrote the file.
+	More Generally, I need to expand the tools within my IDEs to 1. make the inputing of basic commands, including debug commands, easier. 2. if possible, show basic compilation errors without having to swap to Unity, (writing a dozen lines of code only to find out I missed a semicolon is disheartening).
+
+I need to start the jam with a planning session, spending a couple of hours writing out what things I need and do so in a way to make an easy progress tracker.
+	Idea: Make a simple Program which allows me to make goals and check boxes for completing them.
+
+I need to take short, clear notes about progress towards my goal.

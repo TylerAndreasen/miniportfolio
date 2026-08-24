@@ -1,0 +1,9 @@
+I am quite tired, to the point that I don't think I can really make much more progress at the moment. Maybe I can finish it, but this is, at its core, supposed to be a learning experience, even if nothing comes of it. And one of the key steps in there for me is to reflect and take notes. So what have I learned.
+I need to be more thoughtful about preparing and planning my sleep schedule before and during the jam, and having ample caffine available (that isn't coffee).
+I need to drink more water.
+I need to start these jams by creating a more clear/explicit game plan for what I will do.
+I need to figure out why my glasses are so uncomfortable on my face.
+I need to take regular breaks, take better notes about what I am doing and why.
+More debug statements, and putting them in as I am writing classes and changing things.
+I am exausted, at a loss with the engine, and cannot make progress quickly enough.
+Learned a lot, glad for the experience and motivation, but I need to sleep.
